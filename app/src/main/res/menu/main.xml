@@ -1,0 +1,65 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/center"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Center"/>
+      <item
+        android:id="@+id/italic"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="Italic"/>
+        <item
+        android:id="@+id/bold"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:title="Bold"/>
+          <item
+        android:id="@+id/para"
+        android:orderInCategory="103"
+        android:showAsAction="never"
+        android:title="Paragraph"/>
+            <item
+        android:id="@+id/underline"
+        android:orderInCategory="104"
+        android:showAsAction="never"
+        android:title="underline"/>
+              <item
+        android:id="@+id/heading"
+        android:orderInCategory="105"
+        android:showAsAction="never"
+        android:title="heading"/>
+                <item
+        android:id="@+id/marquee"
+        android:orderInCategory="106"
+        android:showAsAction="never"
+        android:title="marquee"/>
+                  <item
+        android:id="@+id/image"
+        android:orderInCategory="107"
+        android:showAsAction="never"
+        android:title="image"/>
+                    <item
+        android:id="@+id/Audio"
+        android:orderInCategory="111"
+        android:showAsAction="never"
+        android:title="Audio"/>
+                    <item
+        android:id="@+id/bullets"
+        android:orderInCategory="108"
+        android:showAsAction="never"
+        android:title="bullets"/>
+                      <item
+        android:id="@+id/nextline"
+        android:orderInCategory="109"
+        android:showAsAction="never"
+        android:title="nextline"/>
+                      <item
+        android:id="@+id/Input"
+        android:orderInCategory="110"
+        android:showAsAction="never"
+        android:title="Input"/>
+        
+
+</menu>
