@@ -46,12 +46,12 @@ String abc ="";
 		@Override
 		public void onTextChanged(CharSequence s, int start, int before, int count) {
 			//e1.setText("<html><head><link rel=\"stylesheet\" media=\"screen and (-webkit-device-pixel-ratio:1.5)\" href=\"hdpi.css\"/></head><body>");
-			String filename = "Fileaditya";
+			String filename = "fileshubham";
 	        String filecontent = e1.getText().toString();
 	        FileOperations fop = new FileOperations();
 	        fop.write(filename, filecontent);
 	        if(fop.write(filename, filecontent)){
-	      	  String url ="file:///storage/sdcard/Fileaditya.html";
+	      	  String url ="file:///storage/sdcard/fileshubham.html";
 	      	  
 	      	
 		        WebView view = (WebView)findViewById(R.id.webView1);
